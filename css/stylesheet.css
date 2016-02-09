@@ -1,0 +1,141 @@
+/*GLOBAL STYLES*/
+
+/*
+third Color: #000066
+Primary Color: #003366
+secondary Color: #006666
+*/
+body{
+  height: 100%;
+  margin:0px;
+  padding: 0px;
+  font-family: 'PT sans',sans-serif;
+}
+
+h1, h2, h3{
+  margin: 0px;
+}
+
+a{
+  text-decoration: none;
+  color: #0d0d0d;
+}
+
+ul{
+  list-style-type: none;
+}
+
+/*HEADER STYLES*/
+
+header{
+  height:120px;
+  background-color: #003366;
+}
+
+#logo{
+  width:300px;
+  position:absolute;
+  top: 35px;
+  left: 100px;
+}
+
+#logo h1:hover{
+  color:#000033;
+}
+
+#menu{
+  position: absolute;
+  top: 35px;
+  right:100px;
+}
+
+#menu ul{
+  display: inline-block;
+}
+
+#menu li{
+  display: block;
+  float: left;
+}
+
+#menu li:after{
+  padding: 0 10px;
+  content: " | ";
+}
+
+#menu a:hover{
+  color: #000033;
+}
+
+/*BANNER STYLES*/
+
+#banner-home{
+  height:250px;
+  background-color: #dddddd;
+  background-size: cover;
+  background-image: url(../img/library-cool.jpeg);
+
+}
+
+#banner-home h1{
+  text-align: center;
+  padding: 90px 0px;
+}
+
+/*BLOG STYLES*/
+
+.container{
+  width: 1200px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+.blog-1, .blog-2{
+  width: 384px;
+  float: left;
+  margin-right: 24px;
+}
+
+.blog-3{
+  width: 384px;
+  float: left;
+}
+
+.blog-image{
+  height: 285px;
+  width: 380px;
+  margin: 0px 2px;
+}
+
+.blog-image-3{
+  height: 200px;
+  width: 380px;
+  margin:0px 1px 43px 1px;
+}
+
+#blog h2{
+  text-align: center;
+  margin: 10px 0;
+  font-size: 2em;
+}
+
+#blog p{
+  text-align: justify;
+}
+
+.button{
+  padding: 15px 35px;
+  background-color: #006666;
+  border: 2px solid #000066;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 600;
+  color:#333;
+  margin: 10px 0px;
+}
+
+.button:hover{
+  background-color: #333;
+  color: #006666;
+}

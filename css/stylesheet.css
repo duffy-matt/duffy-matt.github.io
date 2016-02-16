@@ -280,5 +280,30 @@ footer{
   float: left;
   margin-left: 35px;
   margin-top: 10px;
-
 }
+
+/*======Calvin Page======*/
+.dart{
+  float: right;
+  padding-left: 0px;
+  margin-left: 0px;
+  overflow: hidden;
+  height: 616px;
+  width: 800px;
+}
+
+.calvin-comment{
+  height: 593px;
+  width: 400px;
+  margin: 18px;
+  padding: 5px;
+  border: 2px solid #066;
+  position: relative;
+  border-radius: 5%;
+}
+
+.calvin-comment p{
+  padding: 5px;
+  margin-right: 20px;
+}
+/*======End Calvin Page=====*/

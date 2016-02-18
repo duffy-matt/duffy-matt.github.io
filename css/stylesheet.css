@@ -73,13 +73,16 @@ header{
   height:250px;
   background-color: #dddddd;
   background-size: cover;
-  background-image: url(../img/library-cool.jpeg);
+  background-image: url(../img/stone.jpeg);
 
 }
 
 #banner-home h1{
-  text-align: center;
-  padding: 90px 0px;
+  text-align: left;
+  padding: 90px 100px;
+  color: white;
+  opacity: .3;
+
 }
 
 /*BLOG STYLES*/
@@ -281,6 +284,56 @@ footer{
   margin-left: 35px;
   margin-top: 10px;
 }
+
+/*===== Games Page ======*/
+
+.game{
+  height: 200px;
+  Width: fill;
+  margin: 40px 100px;
+
+}
+
+.game p{
+  margin-left: 10px;
+  margin-right: 10px;
+  width: fill;
+  height: fill;
+}
+
+.me{
+  height: 75px;
+  width: 95px;
+  float: left;
+  margin-right: 10px;
+}
+
+/*===== End Games Page ======*/
+
+/*====Reedley College=====*/
+#idea{
+  height:890px;
+  background-color: #dddddd;
+  background-size: cover;
+  background-image: url(../img/startup-photos-large.jpg);
+
+}
+
+.text{
+  float: left;
+  margin-left: 50px;
+  height: 500px;
+  width: 350px;
+  background-color: white;
+  opacity: .7;
+  border-radius: 5%;
+}
+
+.text p{
+  opacity: .9;
+  padding: 10px;
+}
+/*======End Reedley College======*/
 
 /*======Calvin Page======*/
 .dart{
